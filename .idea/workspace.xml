@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68178037-825a-41dc-9e4f-93e2bf6f51af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaGuide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/_coverpage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/_navbar.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/distributed-session.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/distributed-system-idempotency.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/distributed-system-interview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/distributed-system-request-sequence.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/distributed-transaction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/dubbo-load-balancing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/dubbo-operating-principle.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/dubbo-rpc-design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/dubbo-serialization-protocol.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/dubbo-service-management.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/dubbo-spi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/async-replication-data-lose-case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/consistent-hashing-algorithm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/distributed-system-request-sequence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/distributed-transaction-TCC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/distributed-transaction-XA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/distributed-transaction-local-message-table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/distributed-transaction-reliable-message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/dubbo-keep-connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/dubbo-not-keep-connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/dubbo-operating-principle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/dubbo-service-invoke-road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/dubbo-spi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/e-commerce-website-detail-page-architecture-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/e-commerce-website-detail-page-architecture-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/hash-slot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/hash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/serialize-deserialize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/service-invoke-road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/simple-distributed-system-oa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/zookeeper-active-standby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/zookeeper-centralized-storage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/zookeeper-distributed-coordination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/zookeeper-distributed-lock-demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/zookeeper-distributed-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/images/zookeeper-meta-data-manage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/why-dubbo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/distributed-system/zookeeper-application-scenarios.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/e-commerce-website-detail-page-architecture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-circuit-breaker.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-execution-isolation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-fallback.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-process.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-request-cache.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-semphore-isolation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-thread-pool-current-limiting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-thread-pool-isolation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/hystrix-timeout.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/220px-Internet_dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/async-replication-data-lose-case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/bulkhead-partition.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/consistent-hashing-algorithm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/distributed-system-request-sequence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/distributed-transaction-TCC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/distributed-transaction-XA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/distributed-transaction-local-message-table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/distributed-transaction-reliable-message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/dubbo-operating-principle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/dubbo-service-invoke-road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/dubbo-spi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/e-commerce-website-detail-page-architecture-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/e-commerce-website-detail-page-architecture-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/hash-slot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/hash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/hystrix-process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/hystrix-request-cache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/hystrix-semphore-thread-pool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/hystrix-semphore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/hystrix-thread-pool-isolation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/hystrix-thread-pool-queue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/service-invoke-road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/simple-distributed-system-oa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/zookeeper-active-standby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/zookeeper-centralized-storage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/zookeeper-distributed-coordination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/zookeeper-distributed-lock-demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/zookeeper-distributed-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-availability/images/zookeeper-meta-data-manage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/database-shard-dynamic-expand.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/database-shard-global-id-generate.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/database-shard-method.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/database-shard.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/es-architecture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/es-introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/es-optimizing-query-performance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/es-production-cluster.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/es-write-query-search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/high-concurrency-design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/how-to-ensure-high-availability-of-message-queues.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/how-to-ensure-high-concurrency-and-high-availability-of-redis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/how-to-ensure-that-messages-are-not-repeatedly-consumed.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/how-to-ensure-the-order-of-messages.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/how-to-ensure-the-reliable-transmission-of-messages.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/async-replication-data-lose-case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/consistent-hashing-algorithm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/database-id-sequence-step.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/database-shard-method-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/database-shard-method-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/database-split-horizon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/database-split-vertically.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/distributed-system-request-sequence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/distributed-transaction-TCC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/distributed-transaction-XA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/distributed-transaction-local-message-table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/distributed-transaction-reliable-message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/dubbo-operating-principle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/dubbo-service-invoke-road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/dubbo-spi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/e-commerce-website-detail-page-architecture-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/e-commerce-website-detail-page-architecture-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/es-cluster-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/es-cluster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/es-index-type-mapping-document-field.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/es-search-process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/es-write-detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/es-write.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/hash-slot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/hash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/high-concurrency-system-design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/kafka-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/kafka-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/kafka-order-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/kafka-order-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mq-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/mysql-master-slave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/rabbitmq-message-lose-solution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/rabbitmq-message-lose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/rabbitmq-order-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/rabbitmq-order-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-caching-avalanche-solution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-caching-avalanche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-caching-penetration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-cluster-split-brain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-gossip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-junior-inconsistent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-master-slave-replication-detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-master-slave-replication.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-master-slave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-redlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/redis-single-thread-model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/service-invoke-road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/simple-distributed-system-oa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/zookeeper-active-standby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/zookeeper-centralized-storage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/zookeeper-distributed-coordination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/zookeeper-distributed-lock-demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/zookeeper-distributed-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/images/zookeeper-meta-data-manage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/mq-design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/mq-interview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/mq-time-delay-and-expired-failure.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/mysql-read-write-separation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-caching-avalanche-and-caching-penetration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-cas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-cluster.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-consistence.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-data-types.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-expiration-policies-and-lru.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-master-slave.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-persistence.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-production-environment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-sentinel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/redis-single-thread-model.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/why-cache.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/high-concurrency/why-mq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/micro-services/images/PreferFunctionalStaffOrganization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/micro-services/images/basic-pipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/micro-services/images/conways-law.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/micro-services/images/decentralised-data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/micro-services/images/micro-deployment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/micro-services/images/sketch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/docs/micro-services/microservices-introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/220px-Internet_dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/PreferFunctionalStaffOrganization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/async-replication-data-lose-case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/basic-pipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/bulkhead-partition.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/consistent-hashing-algorithm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/conways-law.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/database-id-sequence-step.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/database-shard-method-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/database-shard-method-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/database-split-horizon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/database-split-vertically.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/decentralised-data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/distributed-system-request-sequence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/distributed-transaction-TCC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/distributed-transaction-XA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/distributed-transaction-local-message-table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/distributed-transaction-reliable-message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/dubbo-keep-connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/dubbo-not-keep-connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/dubbo-operating-principle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/dubbo-service-invoke-road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/dubbo-spi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/e-commerce-website-detail-page-architecture-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/e-commerce-website-detail-page-architecture-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/es-cluster-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/es-cluster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/es-index-type-mapping-document-field.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/es-search-process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/es-write-detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/es-write.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/get-up-and-study.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/hash-slot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/hash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/high-concurrency-system-design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/hystrix-process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/hystrix-request-cache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/hystrix-semphore-thread-pool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/hystrix-semphore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/hystrix-thread-pool-isolation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/hystrix-thread-pool-queue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/kafka-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/kafka-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/kafka-order-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/kafka-order-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/kafka-order-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/kafka-order-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/micro-deployment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mq-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/mysql-master-slave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/rabbitmq-message-lose-solution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/rabbitmq-message-lose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/rabbitmq-order-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/rabbitmq-order-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/rabbitmq-order-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/rabbitmq-order-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-caching-avalanche-solution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-caching-avalanche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-caching-penetration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-cluster-split-brain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-gossip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-junior-inconsistent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-master-slave-replication-detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-master-slave-replication.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-master-slave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-redlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/redis-single-thread-model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/serialize-deserialize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/service-invoke-road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/simple-distributed-system-oa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/sketch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/where-is-my-offer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/zookeeper-active-standby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/zookeeper-centralized-storage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/zookeeper-distributed-coordination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/zookeeper-distributed-lock-demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/zookeeper-distributed-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/images/zookeeper-meta-data-manage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/offer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-java-master/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/servlet/lib/spring-ws.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/servlet/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/servlet/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/servlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/servlet/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Calzone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/CreateThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/LinkedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/MyPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/NutritionFacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/TestOneClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/TestPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/akka/AkkaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/bingfa/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/bingfa/Allocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/bingfa/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/bingfa/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/bingfa/MyThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/bingfa/MyThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/bingfa/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/catalina/Lifecycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/catalina/LifecycleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/factory/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/factory/RegisteredFactories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/genericity/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/genericity/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/genericity/GenericReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/genericity/GenericsAndCovariance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/genericity/MyNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/genericity/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/genericity/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/http/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/ClassOuter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/FunctionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/Incrementable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/MainExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/Out.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/ReplaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/lambda/testLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/servler/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/stream/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/stream/DequeStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/stream/DispTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/stream/Java8Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/stream/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/stream/StreamBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/stream/StreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/stream/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/sync/SyncTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/dujingbo/sync/SyncTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/java/com/jd/spring/hello/hellospring/HelloSpringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring/src/test/java/com/jd/spring/hello/hellospring/HelloSpringApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/iTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iTest/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-design-patterns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toBeTopJavaer" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#64#65#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestGit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestGit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestGit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestGit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TestGit" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68178037-825a-41dc-9e4f-93e2bf6f51af" name="Default Changelist" comment="" />
+      <created>1560591677862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560591677862</updated>
+      <workItem from="1560591851508" duration="756000" />
+      <workItem from="1560593204878" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="920000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#64#65#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
